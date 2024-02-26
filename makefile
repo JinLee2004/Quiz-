@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -Wall -pedantic -ansi -g
-OBJ = quiz.o questions.o 
+OBJ = quiz.o questions.o validation.o
 EXEC = quiz
 
 $(EXEC) : $(OBJ)
