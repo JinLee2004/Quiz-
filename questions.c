@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "questions.h"
 
 int quizQuestions() {
