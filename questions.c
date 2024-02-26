@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "questions.h"
+#include "validation.h"
 
 int quizQuestions() {
     int userInput, score = 0;
@@ -18,6 +19,7 @@ int quizQuestions() {
     }
     printf("The answer was 1. William Henry Harrison\n");
 
+    checkAnswer = FALSE;
     while (checkAnswer == FALSE) {
     printf("What is the most common colour of toilet paper in France? \n");
     printf("1. White\n");
@@ -32,6 +34,7 @@ int quizQuestions() {
     }
     printf("The answer was 2. Pink\n");
 
+    checkAnswer = FALSE;
     while (checkAnswer == FALSE) {
     printf("What is the average waste an Australian produces every year? \n");
     printf("1. 360kg \n");
@@ -46,6 +49,7 @@ int quizQuestions() {
     }
     printf("The answer was 2. 540kg\n");
 
+    checkAnswer = FALSE;
     while (checkAnswer == FALSE) {
     printf("What is the symbol for the element Tungsten \n");
     printf("1. Tg\n");
@@ -60,6 +64,7 @@ int quizQuestions() {
     }
     printf("The answer was 4. W\n");
 
+    checkAnswer = FALSE;
     while (checkAnswer == FALSE) {
     printf("What was the period of music that followed the Renaissance? \n");
     printf("1. Baroque\n");

@@ -9,10 +9,10 @@ $(EXEC) : $(OBJ)
 quiz.o : quiz.c questions.h validation.h
 	$(CC) $(CFLAGS) quiz.c -c
 
-questions.o : questions.c questions.h
+questions.o : questions.c questions.h validation.h
 	$(CC) $(CFLAGS) questions.c -c
 
-validation.o : validation.c validation.h questions.h
+validation.o : validation.c validation.h 
 	$(CC) $(CFLAGS) validation.c -c
 
 clean:

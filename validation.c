@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "validation.h"
-#include "questions.h"
 
 int checkInput(int userInput) {
     int number;
