@@ -20,7 +20,7 @@ int main(int argc, char* argv[]) {
     else if(userInput == 1) {
         total = quizQuestions();
         percentage = scoreInPercentage(total);
-        printf("Your final score is: %d/5 (%d)%% \n", total, percentage);
+        printf("Your final score is: %d/5 %d%% \n", total, percentage); /* %% Prints literal percentage sign */
     }
     return 0;
 }
