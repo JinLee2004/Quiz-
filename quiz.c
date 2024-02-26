@@ -10,6 +10,7 @@ int main(int argc, char* argv[]) {
     do {
         printf("> Press 0 to start. ");
         printf("> Press 1 to end. ");
+        scanf("%d", &userInput);
         userInput = checkInput(userInput); /* Does not check for string input */
     }while (userInput > 1 || userInput < 0);
 
