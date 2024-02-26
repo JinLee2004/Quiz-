@@ -12,7 +12,7 @@ quiz.o : quiz.c questions.h validation.h
 questions.o : questions.c questions.h
 	$(CC) $(CFLAGS) questions.c -c
 
-validation.o : validation.c validation.h
+validation.o : validation.c validation.h questions.h
 	$(CC) $(CFLAGS) validation.c -c
 
 clean:

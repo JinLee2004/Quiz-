@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "validation.h"
+#include "questions.h"
 
 int checkInput(int userInput) {
     int number;
@@ -25,4 +26,18 @@ int scoreInPercentage(int total) {
     percentage = total * 20;
 
     return percentage;
+}
+
+int validateAnswer (int userAnswer)
+{
+    int valid = 0;
+    if (userAnswer <=4 && userAnswer >=1)
+    {
+        valid = 1;
+    }
+    else 
+    {
+        printf("Please enter a valid number\n");
+    }
+    return valid;
 }

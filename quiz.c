@@ -8,8 +8,8 @@ int main(int argc, char* argv[]) {
 
     printf("Welcome to a quiz game!!! \n");
     do {
-        printf("> Press 0 to start \n");
-        printf("> Press 1 to end \n");
+        printf("> Press 0 to end \n");
+        printf("> Press 1 to start \n");
         scanf("%d", &userInput);
         userInput = checkInput(userInput); /* Does not check for string input */
     }while (userInput > 1 || userInput < 0);
