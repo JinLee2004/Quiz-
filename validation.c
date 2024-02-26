@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "validation.h"
+#include "validation.h
 
 int checkInput(int userInput) {
     int number;
@@ -16,5 +16,5 @@ int checkInput(int userInput) {
         number = -1;
     }
 
-    return number;  // Return the determined number
+    return number; 
 }
