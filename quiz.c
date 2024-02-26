@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "questions.h"
+#include "validation.h"
 
 int main(int argc, char* argv[]) {
     int total, userInput; 

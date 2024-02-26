@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "validation.h"
 
 int checkInput(int userInput) {
     int number;
@@ -14,6 +15,6 @@ int checkInput(int userInput) {
         printf("Please enter a valid number\n");
         number = -1;
     }
-    
+
     return number;  // Return the determined number
 }

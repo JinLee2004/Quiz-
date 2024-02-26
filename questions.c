@@ -1,3 +1,5 @@
+#include "questions.h"
+
 int quizQuestions() {
     int userInput, score = 0;
     
