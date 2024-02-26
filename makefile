@@ -6,7 +6,7 @@ EXEC = quiz
 $(EXEC) : $(OBJ)
 	$(CC) $(OBJ) -o $(EXEC)
 
-quiz.o : quiz.c quiz.h questions.h validation.h
+quiz.o : quiz.c questions.h validation.h
 	$(CC) $(CFLAGS) quiz.c -c
 
 questions.o : questions.c questions.h
