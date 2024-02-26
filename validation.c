@@ -18,3 +18,11 @@ int checkInput(int userInput) {
 
     return number; 
 }
+
+int scoreInPercentage(int total) {
+    int percentage;
+
+    percentage = total * 20;
+
+    return percentage;
+}

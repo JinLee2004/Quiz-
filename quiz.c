@@ -4,7 +4,7 @@
 #include "validation.h"
 
 int main(int argc, char* argv[]) {
-    int total, userInput; 
+    int total, userInput, percentage = 0; 
 
     printf("Welcome to a quiz game!!! \n");
     do {
@@ -19,7 +19,8 @@ int main(int argc, char* argv[]) {
     }
     else if(userInput == 1) {
         total = quizQuestions();
-        printf("Your final score is: %d/5\n", total);
+        percentage = scoreInPercentage(total);
+        printf("Your final score is: %d/5 (%d)%% \n", total, percentage);
     }
     return 0;
 }
